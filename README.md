@@ -12,7 +12,7 @@ Can be used like setTimeout in javascript, it creates a game object and in updat
 
 > *Example:*
 ```
-		Tools.setTimeout(delegate(){
+		Tools.SetTimeout(delegate(){
 			print("Hello!");
 		}, 10.0f); // 10 seconds
 ```
