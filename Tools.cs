@@ -1,4 +1,4 @@
-// v1.1
+// v1.11
 using UnityEngine;
 using System.Collections.Generic;
 using System;
@@ -34,6 +34,6 @@ public static class Tools {
     }
 
     public static int GetRandomInt(int min, int max) {
-        return random.Next(min, max);
+        return random.Next(min, max + 1);
     }
 }
